@@ -8,7 +8,7 @@ Vue.use(VueApollo)
 // Name of the localStorage item
 const AUTH_TOKEN = 'Basic aG9wZXh1c2VyOlRlc3RAMTIz'
 
-// Http endpoint
+// Http endpoint this is local url
 const httpEndpoint = process.env.VUE_APP_GRAPHQL_HTTP || 'http://localhost/HOPEXGraphQL/api/BPA'
 // Files URL root
 export const filesRoot = process.env.VUE_APP_FILES_ROOT || httpEndpoint.substr(0, httpEndpoint.indexOf('/graphql'))
