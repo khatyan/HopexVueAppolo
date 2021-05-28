@@ -1,0 +1,11 @@
+query{
+organizationalProcess{
+  id
+  name
+  comment
+  diagram{
+    id
+    name
+  }
+}
+}
